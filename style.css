@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    
+    }
+    .choix_lab{
+        display: flex;
+        margin: 20px;
+        
+        
+        
+    }
+    
+    .lablab{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px;
+        /* border: 2px solid; */
+        
+    }
+    
+    select, button {  
+        background-color:#033D44;
+        background-position: right 10px center;
+        background-repeat: no-repeat;
+        background-size: auto 50%;
+        border-radius: 2px;
+        border: 1px black;
+        border: none;
+        color: #ffffff;
+        padding: 10px 30px 10px 10px;
+        margin: 10px;
+        text-align: center;
+    }
+    
+    
