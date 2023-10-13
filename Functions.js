@@ -39,8 +39,9 @@ function initCase(cellData){
         // manipulate element
         elt.id = 'test'
         
-        elt.style.border = '2px solid'
+        elt.style.border = '3px solid'
         elt.style.height = '100px'
+        elt.style.fontWeight= 'bold'
         elt.style.width = widhtCase +'px'
         elt.style.backgroundColor = '#39ADB3'
         elt.style.borderColor = '#39ADB3'
