@@ -95,8 +95,6 @@ function getSizeLabyrinthe (pDdata) {
 function choixNombreCase(){
     let number = document.createElement('select');
     number.id = 'choix_nombre_cases';
-    // number.style.width = '200px'
-    // number.style.height = '25px'
     $("#choix1").append(number);
         for (let item in data){
             $("#choix_nombre_cases").append($('<option>', {value:item,text:item}))
@@ -122,17 +120,73 @@ function getValuesExo(){
         valueExo = document.getElementById('choix_nombre_exo').value;
          return valueExo;
 }
+//---------------------------------------------------------------------------------------------------------------------------------//
 
+// var stack = [];
 
+// //put value on top of stack
+// stack.push(1);
+
+// //remove value from top of stack
+// var value = stack.pop();
 
     
+// function DFS_iterative (){
+//     let stack = []
+      
+//     while(stack.length != 0){
+//         let v = stack.pop()
+//         if (v.visited == false ) {
+//             v.visited == true
+//         }
+//         if (v.exit == true){
+
+//         }
+//     }
+// }
+
+
+    // let s =[]
+    // let a = getLabyrintheData('3','ex-0')
+    // let v = a[0] 
+    //     if (v.walls[1]== false) {
+    //        v.posY+1
+    //     }
+    //     console.log(v)
+    //     if (v.walls[3]== false) {
+    //         v.posY-1
+           
+    //      }
+    //      if (v.walls[0]== false) {
+    //         v.posX-1
+            
+    //      }
+    //      if (v.walls[2]== false) {
+    //         v.posX+1
+            
+    //      }
+         
+         
+  
 
 
 
 
+    // if (posJ.walls[1] == false) {
+    //     posJY = posJY + 1;
+    // }
 
+    // if (posJ.walls[3] == false) {
+    //     posJY = posJY - 1;
+    // }
 
+    // if (posJ.walls[0] == false) {
+    //     posJX = posJX - 1;
+    // }
 
+    // if (posJ.walls[2] == false) {
+    //     posJX = posJX + 1;
+    // }
 
 
 
